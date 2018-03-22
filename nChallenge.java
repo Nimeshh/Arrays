@@ -14,7 +14,7 @@ public class nChallenge {
 
     public static int[] getInt(int num){
         int[] array = new int[num];
-        System.out.println("Enter "+num+" that you desire.");
+        System.out.println("Enter "+num+" numbers that you desire.");
         for(int i = 0; i<array.length;i++){
             array[i] = scanner.nextInt();
         }
